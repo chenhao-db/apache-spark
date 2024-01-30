@@ -4188,6 +4188,12 @@
     ],
     "sqlState" : "42883"
   },
+  "VARIANT_SIZE_LIMIT" : {
+    "message" : [
+      "Cannot build variant bigger than 16MiB."
+    ],
+    "sqlState" : "22023"
+  },
   "VIEW_ALREADY_EXISTS" : {
     "message" : [
       "Cannot create view <relationName> because it already exists.",
